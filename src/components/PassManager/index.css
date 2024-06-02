@@ -1,0 +1,159 @@
+/* div {
+  border: 1px solid blue;
+} */
+* {
+  color: white;
+  font-family: roboto;
+}
+.card {
+  /* padding: 10px; */
+}
+.bg {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #9ba9eb;
+  padding: 70px;
+}
+.inputCard {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  margin: 5px;
+}
+input {
+  color: black;
+}
+.input_img {
+  height: 15px;
+}
+.searchMainCard {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.searchCard {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.inputSearchEl {
+  height: 30px;
+}
+.imgCard {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.searchImg {
+  height: 15px;
+}
+.inputEl {
+  height: 40px;
+  width: 90%;
+  color: black;
+}
+.wupCard {
+  width: 50%;
+  background-color: #454f84;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.wupMainCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #5763a5;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.mainImg {
+  height: 80px;
+  margin: 10px;
+}
+button {
+  cursor: pointer;
+}
+.passTextCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkboxCard {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.passItemCard {
+  background-color: #5763a5;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+}
+.checkboxContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.passLength {
+  display: flex;
+  align-items: center;
+}
+.length {
+  border: 1px solid #b6c3ca;
+  margin-left: 10px;
+  width: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.pMImg {
+  width: 100px;
+}
+.pMImgCard {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noPassImg {
+  height: 200px;
+}
+.noPassCard {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.noPassText {
+  text-align: center;
+  font-size: 20px;
+}

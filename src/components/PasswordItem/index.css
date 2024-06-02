@@ -1,0 +1,41 @@
+li {
+  list-style-type: none;
+  border: 1px solid #b6c3ca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  border-radius: 15px;
+  margin: 10px;
+}
+.delete {
+  cursor: pointer;
+  background-color: transparent;
+  color: #b6c3ca;
+  border: none;
+}
+.deleteImg {
+  height: 30px;
+}
+.listCard {
+  display: flex;
+  align-items: center;
+}
+.startName {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 23px;
+  margin: 5px;
+  margin-right: 15px;
+}
+.starImg {
+  height: 20px;
+  width: 120px;
+}
